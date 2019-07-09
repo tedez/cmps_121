@@ -1,0 +1,10 @@
+//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+//        fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Snackbar.make(view, "Saving Data", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+//                // now actually save data
+//                // get name, year, photographer and save it in an appropriate container
+//            }
+//        });

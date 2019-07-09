@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/EnterInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickOne"
+        android:text="@string/enter_info"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view"
+        android:textSize="24sp"
+        android:onClick="clickTwo" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickThree"
+        android:text="@string/exit"
+        android:textSize="24sp" />
+</android.widget.LinearLayout>
